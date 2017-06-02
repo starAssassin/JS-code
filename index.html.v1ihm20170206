@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta name='title' content = "Learning Javascript Lesson Number One:  Drag and Drop">
+<meta name='description' content = "Learning Javascript and Writing my Tutorials as I go">
+<meta name='keywords' content  = "javascript drag and drop, javascript">
 <style>
 #div1 {
   width: 250px;
@@ -26,7 +29,7 @@ function drop(bfly) {
 </script>
 </head>
 <body>
-<h2>My first drag and drop example</h2>
+<h2>My first drag and drop example lesson 1</h2>
 <div style="width: 50rem;">
 Learning the basics will require me to type this out and fully understand what the methods are and what they do.
 <br><br>
@@ -45,7 +48,7 @@ Example data types are text/plain and text/uri-list.
 <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
 </div>
 <br>
-<img id="drag1" src="puzzle.png" draggable="true" ondragstart="drag(event)" width = "250" height="250">
+<img id="drag1" src="images/puzzle.png" draggable="true" ondragstart="drag(event)" width = "250" height="250">
 
 </body>
 </html>
